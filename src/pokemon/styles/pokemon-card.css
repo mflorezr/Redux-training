@@ -1,0 +1,40 @@
+.card-container {
+  align-items: center;
+  border-radius: 3%;
+  border: 1px solid #cecfcfd0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  width: 11rem;
+  position: relative;
+}
+
+.img-container {
+  width: 100%; 
+}
+
+.pokemon-image {
+  width: 100%;
+}
+
+.pokemon-name-container {
+  background-color: #f5f5f5;
+  border-top: 1px solid #cecfcfd0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.fav-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+.fa-heart  {
+  color: #fec204;
+  font-size: 1.5rem;
+}
