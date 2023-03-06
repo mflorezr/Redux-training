@@ -1,0 +1,50 @@
+.modal-header {
+  position: relative;
+}
+
+.modal-body {
+  display: flex;
+}
+
+.modal-image-container {
+  width: 10rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.modal-image {
+  width: 100%;
+}
+
+.modal-pokemon-details {
+  width: 18rem;
+}
+
+.details-features {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  margin: 1rem 0;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.feature-value {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.modal-header .fav-icon {
+  position: absolute;
+  top: 1.3rem;
+  left: 12rem;
+}
